@@ -1,0 +1,33 @@
+body img{
+    width: 10vh;
+    margin-bottom: 4vw;
+}
+input{
+    font-family: 'Karla', sans-serif;
+    background-color: white;
+    border: white;
+    border-width: 1%;
+    padding: 3%;
+    width: 25vh;
+    color: #7C7C7C;
+    border-bottom-left-radius: 1.5vw;
+    border-top-left-radius: 1.5vw;
+    font-size: 1rem;
+}
+button{
+    color: #7C7C7C;
+    border: white;
+    border-width: 1%;
+    padding: 3%;
+    font-family: 'Karla', sans-serif;
+    background-color: white;
+    border-bottom-right-radius: 1.5vw;
+    border-top-right-radius: 1.5vw;
+    font-size: 1rem;
+}
+h3{
+    margin-top: 4vw;
+    font-family: 'Karla', sans-serif;
+    color: #7C7C7C;
+    font-size: 3vh;
+}

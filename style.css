@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+textarea:focus, input:focus, select:focus, button:focus{
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F3F3FB;
+    overflow: hidden;
+}
+body img{
+    width: 10vw;
+    margin-bottom: 4vh;
+}
+h3{
+    margin-top: 4vh;
+    font-family: 'Karla', sans-serif;
+    color: #7C7C7C;
+    font-size: 3vh;
+}
+#response{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+body div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    font-family: 'Karla', sans-serif;
+    background-color: white;
+    border: white;
+    border-width: 1%;
+    padding: 1.5%;
+    width: 25%;
+    color: #7C7C7C;
+    border-bottom-left-radius: 1.5vw;
+    border-top-left-radius: 1.5vw;
+    font-size: 1rem;
+}
+button{
+    color: #7C7C7C;
+    border: white;
+    border-width: 1%;
+    padding: 1.5%;
+    font-family: 'Karla', sans-serif;
+    background-color: white;
+    border-bottom-right-radius: 1.5vw;
+    border-top-right-radius: 1.5vw;
+    font-size: 1rem;
+}
+button:hover{
+    cursor: pointer;
+}
+.loader-wrapper {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #F3F3FB;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .loader {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    border: 4px solid #007db9;
+    animation: loader 2s infinite ease;
+  }
+  .loader-inner {
+    vertical-align: top;
+    display: inline-block;
+    width: 100%;
+    background-color: #007db9;
+    animation: loader-inner 2s infinite ease-in;
+  }
+  @keyframes loader {
+    0% { transform: rotate(0deg);}
+    25% { transform: rotate(180deg);}
+    50% { transform: rotate(180deg);}
+    75% { transform: rotate(360deg);}
+    100% { transform: rotate(360deg);}
+  }
+  @keyframes loader-inner {
+    0% { height: 0%;}
+    25% { height: 0%;}
+    50% { height: 100%;}
+    75% { height: 100%;}
+    100% { height: 0%;}
+  }
